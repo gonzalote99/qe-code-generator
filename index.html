@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css" />
+  <title>qr code generator</title>
+</head>
+<body>
+  <div class="container">
+    <h1>qr code generator</h1>
+    <form> 
+     <input
+     type="text"
+     id="inp"
+     required
+     placeholder="enter text"
+     />
+     <div id="qrcode-container">
+      <div class="qrcode" id="qrcode">
+      <img src="" alt="qrcode" id="qrimg" />
+      </div>
+     </div>
+     <button id="btn" type="button" >generate qr code</button>
+    </form>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
